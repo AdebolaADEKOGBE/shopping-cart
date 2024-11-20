@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: rgb(226, 200, 175);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-item-details p {
+    color: #777;
+}
+
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons button {
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.quantity-buttons button:hover {
+    background-color:  rgb(226, 200, 175);
+}
+
+.heart-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(229, 215, 179);
+    margin-right: 10px;
+}
+
+.heart-button.liked {
+    color: rgb(226, 200, 175);
+}
+
+.delete-button {
+    background-color:  rgb(190, 150, 112);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: rgb(237, 180, 24);
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
